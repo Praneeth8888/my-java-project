@@ -8,7 +8,7 @@ public class Hello1{
             System.out.println("*");
             i++;
             int j=1;
-            while(j<=3){
+            while(j<=4){
                 System.out.println("#");
                 j++;
             }
