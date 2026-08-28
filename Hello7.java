@@ -23,7 +23,7 @@ public String getname(){
 
 
 
-public class Hello6 {
+public class Hello7 {
     public static void main(String[] args) {
         
     Human obj=new Human();
