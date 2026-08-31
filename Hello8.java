@@ -1,4 +1,4 @@
-class Human{
+class Human {
 private int age=11;
 private String name="Bob";
 
@@ -8,11 +8,12 @@ public int getage(){
     return age;
 }
 public void setage(int age){
-age=a;
+    
+this.age=age;
 }
 
-public void setname(String n){
-    name=n;
+public void setname(String name){
+    this.name=name;
 }
 
 public String getname(){
@@ -21,7 +22,7 @@ public String getname(){
 
 }
 
-public class Hello7 {
+public class Hello8 {
     public static void main(String[] args) {
         
     Human obj=new Human();
@@ -34,3 +35,4 @@ public class Hello7 {
 }
     
 }
+ 
