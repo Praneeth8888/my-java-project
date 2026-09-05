@@ -1,7 +1,7 @@
 
 
 
-class A{
+class A extends Object{ // A is a subclass of Object and Object is not visible to us because it is a part of java.lang package and it is imported by default in every java program
  public A(){
      super();
         System.out.println("this is A");
@@ -9,18 +9,19 @@ class A{
 
     public A(int n){
             super();
-        System.out.println("this is A when n is called");
+        System.out.println("this is A when variable is called");
     }
 }
 
-class B extends A{
+class B extends A{ // B is a subclass of A
     public B(){
-        super();
+        super();//this is used to call the constructor of the parent class
         System.out.println("this is B");
     }
    
-    public B(int n){
-         super(n);
+    public B(int n){ 
+       
+         super(n);//this is used to call the constructor of the parent class
         System.out.println("this is B when n is called");
     }
 
