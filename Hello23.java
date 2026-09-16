@@ -1,7 +1,7 @@
 
 public class Hello23  {
     public static void main(String a[]) {
-        int i = 0;
+        int i = 4;
         int j = 0;
 
         try {
