@@ -1,23 +1,22 @@
-
-public class Hello23  {
+public class Hello24 {
     public static void main(String a[]) {
-        int i = 2;
+        int i = 20;
         int j = 0;
-        int nums[]= new int[4];
+        
 
         try {
             j = 18 / i; // Causes ArithmeticException because i is 0
-            System.out.println(nums[1]); // This line will not be executed due to the Arithmetic Exception above
-            System.out.println(nums[4]); // This line will also not be executed
+            if(j==0){
+                throw new ArithmeticException("j is zero"); // Manually throwing an ArithmeticException if j is zero
+            }
+           
         }
         
         catch(ArithmeticException e) {// This catch block will handle the ArithmeticException
-            System.out.println("Cannot divide by zero."+ e);
+            j=18/1;
+            System.out.println("Default");
         }
 
-        catch(ArrayIndexOutOfBoundsException e) { // This catch block will handle the ArrayIndexOutOfBoundsException
-            System.out.println("Array index is out of bounds."+ e);
-        }
 
         catch(Exception e) {
             System.out.println("Some other exception occurred."+ e); // This catch block will handle any other exceptions that are not caught by the previous catch blocks
