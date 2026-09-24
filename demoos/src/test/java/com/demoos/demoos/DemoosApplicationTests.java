@@ -1,0 +1,13 @@
+package com.demoos.demoos;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DemoosApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
