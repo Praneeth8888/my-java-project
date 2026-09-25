@@ -1,0 +1,10 @@
+
+
+
+<beans>
+<bean id="dev" class="com.demoos.dev">
+    <property name="name" value="bob"/>
+    <property name="age" value="20"/>
+
+
+</beans>
