@@ -6,7 +6,6 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 <bean id="dev" class="com.demoos.dev">
-    <property name="name" value="bob"/>
-    <property name="age" value="20"/>
+    
 </bean>
 </beans>

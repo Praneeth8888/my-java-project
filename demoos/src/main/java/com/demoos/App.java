@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class App {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-        dev obj = context.getBean("dev", dev.class);
+        dev obj = context.getBean("dev");
         obj.build();
     }
 }
