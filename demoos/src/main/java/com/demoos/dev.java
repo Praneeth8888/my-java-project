@@ -9,7 +9,7 @@ public class dev {
     }
 
     public void setAge(int age) {
-        this.age = agsdfe;
+        this.age = age;
     }
 
     public void build() {
